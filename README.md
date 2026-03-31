@@ -1,3 +1,13 @@
-# basic_python_problem
-Collection of basic Python programs for learning and practice.
+# Python Practice Programs
+
+This repository contains my Python learning journey.
+
+## Topics Covered:
+- Basics
+- Conditions
+- Loops
+- Functions
+
+## Author:
+Prashant Singh
 
