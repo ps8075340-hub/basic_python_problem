@@ -20,4 +20,4 @@ else:
 
 print('Total Sales made : ',totalsales)
 print ('Total Transaction made : ', totaltrans)
-print('Average Sales per transaction : ',avg_sales
+print('Average Sales per transaction : ',avg_sales) 
