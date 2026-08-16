@@ -12,3 +12,14 @@ nums = [10, 15, 20, 25, 30, 35]
 for i, num in enumerate(nums):
     if num % 2 == 0:
         print(i, num) # Practice 3
+
+numbers = [5, 12, 7, 20, 15, 30, 9, 40]
+for i, num in enumerate(numbers, start = 0):
+    if num % 2 == 0 and i % 2 != 0:
+        print(i,num) # Practice 4
+
+students = ["Rahul", "Prashant", "Anay", "Aman", "Rohit", "Neha"]
+marks = [45, 78, 32, 91, 67, 85]
+for i, mark in enumerate(marks, start=1):
+    if mark >= 60:
+        print(i, students[i - 1], mark) # Practice 5
