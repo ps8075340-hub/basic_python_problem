@@ -23,3 +23,9 @@ marks = [45, 78, 32, 91, 67, 85]
 for i, mark in enumerate(marks, start=1):
     if mark >= 60:
         print(i, students[i - 1], mark) # Practice 5
+
+students = ["Rahul", "Prashant", "Anay", "Aman", "Rohit", "Neha"]
+marks = [45, 78, 32, 91, 67, 85]
+for i, mark in enumerate(marks, start = 1):
+    if mark >= 80:
+        print("position:", i, students[i - 1], mark) # Practice 6
