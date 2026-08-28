@@ -34,3 +34,19 @@ names = ["A", "B", "C", "D", "E"]
 for i, name in enumerate(names[::-1]):
     reversed_position = len(name) - i
     print(i, name) # Practice 7
+
+data = [
+    ["Aman", 78, 82],
+    ["Rahul", 91, 88],
+    ["Neha", 67, 95],
+    ["Rohit", 85, 79]
+]
+for i, student in enumerate(data,  start = 1):
+    name = student[0]
+    mark_1 = student[1]
+    mark_2 = student[2]
+    
+    average_marks = (mark_1 + mark_2)/ 2
+    
+    if average_marks >= 85:
+        print(i,name, average_marks) # Practice 8
