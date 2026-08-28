@@ -1,4 +1,4 @@
-# Practice program on enumerate functions.
+# Practice programs on enumerate functions.
 
 fruits = ["Apple", "Banana", "Mango\n"]
 for i, fruit in enumerate(fruits):
