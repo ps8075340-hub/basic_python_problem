@@ -29,3 +29,8 @@ marks = [45, 78, 32, 91, 67, 85]
 for i, mark in enumerate(marks, start = 1):
     if mark >= 80:
         print("position:", i, students[i - 1], mark) # Practice 6
+
+names = ["A", "B", "C", "D", "E"]
+for i, name in enumerate(names[::-1]):
+    reversed_position = len(name) - i
+    print(i, name) # Practice 7
